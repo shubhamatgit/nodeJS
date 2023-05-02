@@ -1,4 +1,3 @@
-import "./App.css";
 import Nav from "./components/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Signup from "./components/Signup";
@@ -8,6 +7,8 @@ import PrivateComponent from "./components/PrivateComponent";
 import AddProduct from "./components/AddProduct";
 import Products from "./components/Products";
 import UpdateProduct from "./components/UpdateProduct";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
