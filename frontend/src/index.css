@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-weight: 400;
+}
+:root {
+  --black: #141414;
+  --white: #ffffff;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  transition: all 0.3s ease-in-out;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--black);
+}
+.input {
+  height: 32px;
+  padding: 0 12px;
+}
+
+.button {
+  outline: none;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main {
+  max-width: 1248px;
+  padding: 64px 24px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
